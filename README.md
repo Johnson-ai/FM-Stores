@@ -1,12 +1,41 @@
-# React + Vite
+# 🛍️ FM Stores – Neon Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **FM Stores**, a futuristic fashion shopping platform with a glowing **neon/cyberpunk aesthetic** and interactive features. Built with **React + Tailwind CSS**, this UI-rich e-commerce experience offers dynamic animations, glowing UI elements, and smooth shopping interactions.
 
-Currently, two official plugins are available:
+![FM Stores Preview](https://via.placeholder.com/1200x600?text=FM+Stores+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧥 **Product Showcase** with modal previews
+- ⭐ **Star Ratings**, Stock Indicators & Limited Badges
+- ⚡ **Glowing Animations** and Glassmorphism Hover Effects
+- 🎯 **Category Filter**, Sorting, Search, and Pagination
+- 🛒 **Interactive Cart** (Drawer + Cart Page)
+- 🧾 **Checkout System** with Receipt & My Orders Page
+- 🎉 **Floating Elements**, Countdown for New Arrivals, & Neon UI
+- 🎨 **Fully Responsive** and built for a futuristic fashion experience
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Vite)
+- **Tailwind CSS**
+- **Framer Motion**
+- **Context API**
+- **LocalStorage**
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/           # Images, logos, etc.
+├── components/       # Reusable UI components
+├── context/          # Cart and global context
+├── pages/            # Route-based pages
+├── styles/           # Tailwind custom styles
+└── App.jsx           # Main app structure
